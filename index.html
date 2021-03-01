@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>Dad Jokes</title>
+</head>
+
+<body>
+    <div class="joke-container" id="joke-container">
+        <!--Joke-->
+        <div class="joke-text">
+            <span id="joke"></span>
+            <i class="far fa-smile-wink" id="wink"></i>
+        </div>
+        <!--Buttons-->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-joke">New Joke</button>
+        </div>
+    </div>
+    <!--Loader-->
+    <div class="loader" id="loader" hidden></div>
+
+
+
+
+    <!--Script-->
+    <script src="Ui.js"></script>
+    <script src="Request.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
